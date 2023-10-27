@@ -1,0 +1,96 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <header>
+        <h1 class="app-titulo">Cash in Hand</h1>
+        <p class="app-subtitulo">Financeira</p>
+        <nav class="app-nav">
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'validar_renda' %}">Validar Renda</a></li>
+                <li><a href="">Sobre Nós</a></li>
+                <li><a href="">Dúvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="quadrado"></div>
+    <div>
+        <p>.</p> <!-- ponto é apenas para da espaço ja que não estava conseguindo no css. -->
+    </div>
+    <div>
+        <img src="{% static 'imagens/dinheiro_real.jpg' %}" alt="Dinheiro notas de cem" width="100%" height="300px">
+    </div>
+    <div class="app-container">
+        <div class="container">
+            <div class="box">
+                <div class="app-seletor">
+                    <img src="{% static 'imagens/person.svg' %}" alt="uma pessoa" width="45px" height="45px">
+                </div>
+                <div class="app-seletor">
+                    <p><strong>Empréstimo Pessoal</strong></p>
+                </div>
+                <p class="app-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique laoreet elementum. Nunc et massa non elit dictum pellentesque.</p>
+            </div>
+            
+            <div class="box">
+                <div class="app-seletor">
+                    <img src="{% static 'imagens/ok.svg' %}" alt="uma pessoa" width="45px" height="45px">
+                </div>
+                <div class="app-seletor">
+                    <p><strong>Consignado Privado</strong></p>
+                </div>
+                <p class="app-texto">Nulla feugiat bibendum venenatis. Curabitur feugiat molestie metus, vitae lacinia dolor. Ut condimentum finibus erat nec sagittis. Pellentesque lobortis, nulla vel hendrerit dapibus, lacus nulla pharetra diam, in tincidunt purus lectus vitae nunc. </p>
+            </div>
+    
+            <div class="box">
+                <div class="app-seletor">
+                    <img src="{% static 'imagens/people.svg' %}" alt="uma pessoa" width="60px" height="60px">
+                </div>
+                <div class="app-seletor">
+                    <p><strong>Consignado Público</strong></p>
+                </div>
+                <p class="app-texto">Pellentesque lobortis, nulla vel hendrerit dapibus, lacus nulla pharetra diam, in tincidunt purus lectus vitae nunc. Curabitur rutrum nulla nec ipsum ultrices scelerisque. Nullam bibendum mattis eros. Praesent et tincidunt tortor, et pretium turpis. </p>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="box2">
+                <img src="{% static 'imagens/vovo_da_grana.jpg' %}" alt="vovó com dinheiro na mão" width="400px" height="300px">
+            </div>
+            <div class="box2">
+                <h1>Empréstimo e Financiamento</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tristique laoreet elementum. Nunc et massa non elit dictum pellentesque.</p>
+                <div>
+                    <p><strong>Endereço:</strong> Rua Fictícia, 123, Bairro Imaginário, Cidade dos Sonhos, Estado dos Devaneios, 01234-567.</p>
+                    <p><strong>Atendimento:</strong> Atendimento de segunda a sexta de 8:00 as 18:00 aos sabados de 8:00 as 12:00</p>
+                    <p><strong>WhatsApp:</strong> (xx) xxxxx-xxxx</p>
+                    <p><strong>Telefone:</strong> (xx) xxxx-xxxx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="app-plano-de-fundo">
+            <div class="box3">
+                <h2>Empréstimo rápido, fácil e <br> seguro é na Cash in Hand!</h2>
+                <p class="app-texto-footer">Pellentesque lobortis, nulla vel hendrerit dapibus, lacus nulla pharetra diam, in tincidunt purus lectus vitae nunc. Curabitur rutrum nulla nec ipsum ultrices scelerisque. Nullam bibendum mattis eros. Praesent et tincidunt tortor, et pretium turpis.</p>
+            </div>
+            <div class="box3 app-image">
+                <img src="{% static 'imagens/calc.jpg' %}" alt="Homem pensando no que vai fazer" width="200px" height="200px">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+

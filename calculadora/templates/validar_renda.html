@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Validar Renda{% endblock %}
+
+{% block content %}
+    <h1>Validação de Renda</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="renda">Renda Mensal:</label>
+        <input type="text" id="renda" name="renda"><br><br>
+        <input type="submit" value="Validar">
+    </form>
+{% endblock %}

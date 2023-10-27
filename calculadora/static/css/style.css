@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+header{
+    background-color: #4344E5; 
+}
+
+.app-nav {
+    background-color: #FFE455; 
+}
+
+.app-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.app-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.app-nav a:hover {
+    background-color: #4344E5;
+    color: #FFF;
+}
+
+.app-titulo{
+    color: white;
+    position: relative;
+    padding-top: 3%;
+    left: 5%;
+    text-shadow: 2px 2px 4px rgba(255, 228, 85, 0.9);
+}
+
+.app-subtitulo{
+    color: black;
+    position: relative;
+    margin-top: -1%;
+    left: 8%;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.quadrado {
+    width: 200px; /* Largura do quadrado */
+    height: 25px; /* Altura do quadrado */
+    background-color: white; /* Cor de fundo */
+    z-index: 0;
+    position: relative;
+    margin-top: -4.6%;
+    left: 5%;
+    box-shadow: 0 4px 8px rgba(255, 228, 85, 0.9); 
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.app-seletor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
+.box {
+    background-color: white; 
+    margin-left: 100px;
+    height: 280px;
+    width: 300px;
+    align-items: center;
+}
+
+.app-texto{
+    align-items: center;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+}
+
+.box2 {
+    text-align: left;
+    max-width: 600px; /* Define uma largura máxima para o box */
+    margin: 0 10px;
+}
+
+.app-container{
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: #FFE455;
+}
+
+.app-texto-footer{
+    width: 304px;
+    text-align: justify;
+    font-size: small;
+}
+
+.app-plano-de-fundo{
+    background-color: #FFE455;
+    display: flex;
+    justify-content: left; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    margin-left: 13%;
+}
+
+.box3{
+    margin: 0 40px;
+}
+
+.app-image{
+    position: relative;
+    left: 13%;
+    padding-top: 2%;
+}
+
+.app-tamanho{
+    margin-bottom: 23%;
+}

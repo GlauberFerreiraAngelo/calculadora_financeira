@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Calcular Empréstimo{% endblock %}
+
+{% block content %}
+    <h1>Cálculo de Empréstimo</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="valor_emprestimo">Valor do Empréstimo:</label>
+        <input type="text" id="valor_emprestimo" name="valor_emprestimo"><br><br>
+        <label for="prazo">Prazo (em meses):</label>
+        <input type="text" id="prazo" name="prazo"><br><br>
+        <input type="submit" value="Calcular">
+    </form>
+{% endblock %}
