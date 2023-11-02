@@ -1,6 +1,6 @@
 Calculadora financeira 
 
-link para vídeo de demonstração das principais funcionalidades: https://youtu.be/DdyQCpJfwSk
+link para vídeo de demonstração das principais funcionalidades: https://youtu.be/mo2EIE-_7sw
 
 Ambiente de teste do sistema desenvolvimento: Código mais simples já que não consegui hospeda no site https://colab.research.google.com/drive/1-gGVUWFja_kyZ4BgLqkE7lVgcko72RfL?usp=sharing
 
